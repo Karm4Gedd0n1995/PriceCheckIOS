@@ -22,22 +22,19 @@ struct HomeView: View {
                         .font(.title)
                     ScrollView{
                         LazyHGrid(rows: rows){
-                            NavigationLink {
-                                ProspectsView(prospects: prospects)
-                            } label: {
+                            NavigationLink(value: "prospect", label: {
                                 MainCard(cardimage: "LidlProspekt", cardText: "Prospekte")
                                     
-                            }
-                            NavigationLink {
-                                //FavoritenView()
-                            } label: {
+                            })
+                                
+                            NavigationLink(value: "favorit", label: {
                                 MainCard(cardimage: "favorit", cardText: "Favoriten")
-                            }
-                            NavigationLink {
-                                //MapView()
-                            } label: {
+                            })
+                            
+                        
+                            NavigationLink(value: "map", label: {
                                 MainCard(cardimage: "map", cardText: "Märkte in der Nähe")
-                            }
+                            }) 
                             
                             
                             
