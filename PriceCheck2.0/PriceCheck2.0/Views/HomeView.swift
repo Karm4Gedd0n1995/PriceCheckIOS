@@ -20,6 +20,7 @@ struct HomeView: View {
                     
                     Text("PriceCheck")
                         .font(.title)
+                    
                     ScrollView{
                         LazyHGrid(rows: rows){
                             NavigationLink(value: "prospect", label: {

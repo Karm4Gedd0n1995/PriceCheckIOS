@@ -8,18 +8,24 @@
 import SwiftUI
 
 struct ProspectCard: View {
-    @State var isFavorite : Bool = false
-    var prospect : Prospect
+    @StateObject var dataModel = DataBase()
+     var prospect : Prospect
     var body: some View {
         
             VStack{
-                Image(prospect.image)
+                Image(prospect.image )
                     .resizable()
                     .frame(width: 350, height: 600)
                 HStack{
                     Text(prospect.name).bold().font(.largeTitle)
                     Image(systemName: isFavorite ? "heart.fill" : "heart").foregroundColor(.red).onTapGesture {
-                        !isFavorite
+                        if(prospect.isFavorite == false){
+                        dataModel.saveData(isFavorite: true, name: prospect.name, image: prospect.image)
+                        prospect.isFavorite.toggle()
+                        } else {
+                            prospect.isFavorite.toggle()
+                            
+                        }
                     }
                 }
                 Divider()

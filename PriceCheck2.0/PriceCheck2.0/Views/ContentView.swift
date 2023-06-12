@@ -29,7 +29,7 @@ struct ContentView: View {
                             } else if (navDest == "map"){
                                 MapView2()
                             } else if (navDest == "favorit"){
-                                FavoritenView()
+                                FavoritenView(dataModel: DataBase())
                             }
                         }
                         .navigationDestination(for: User.self){ user in

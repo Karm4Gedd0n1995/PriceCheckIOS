@@ -15,6 +15,7 @@ struct ProspectView: View {
             
             
                 VStack{
+                
                     
                     AsyncImage(url: URL(string: prosp.image))
                         

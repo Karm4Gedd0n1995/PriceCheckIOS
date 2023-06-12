@@ -12,5 +12,6 @@ struct Prospect: Identifiable {
     var name : String
     var image : String
     
+    
 }
 

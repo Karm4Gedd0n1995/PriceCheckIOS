@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95121EB02A124D10008414D8 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95121EAF2A124D10008414D8 /* MapViewModel.swift */; };
 		95121EB22A124D1B008414D8 /* FavoritenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95121EB12A124D1B008414D8 /* FavoritenView.swift */; };
+		953A766C2A2A1A1900010574 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953A766B2A2A1A1900010574 /* DataBase.swift */; };
 		953FB4FE2A10BF6E005A67A2 /* PriceCheck2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953FB4FD2A10BF6E005A67A2 /* PriceCheck2_0App.swift */; };
 		953FB5002A10BF6E005A67A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953FB4FF2A10BF6E005A67A2 /* ContentView.swift */; };
 		953FB5052A10BF6F005A67A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953FB5042A10BF6F005A67A2 /* Preview Assets.xcassets */; };
-		953FB50A2A10BF6F005A67A2 /* PriceCheck2_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 953FB5082A10BF6F005A67A2 /* PriceCheck2_0.xcdatamodeld */; };
+		953FB50A2A10BF6F005A67A2 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 953FB5082A10BF6F005A67A2 /* CoreData.xcdatamodeld */; };
 		953FB5112A10C099005A67A2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953FB5102A10C099005A67A2 /* LoginView.swift */; };
 		953FB5132A10C0A6005A67A2 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953FB5122A10C0A6005A67A2 /* SignupView.swift */; };
 		953FB5152A10C108005A67A2 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953FB5142A10C108005A67A2 /* SplashScreen.swift */; };
@@ -55,14 +55,16 @@
 		953FB5652A1161A6005A67A2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 953FB5642A1161A6005A67A2 /* FirebaseStorage */; };
 		953FB5672A1161A6005A67A2 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 953FB5662A1161A6005A67A2 /* FirebaseStorageCombine-Community */; };
 		953FB56B2A116742005A67A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953FB56A2A116742005A67A2 /* Assets.xcassets */; };
+		95C3A6AA2A1B99CC003921B9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C3A6A92A1B99CC003921B9 /* LocationManager.swift */; };
+		95C3A6AF2A1E4C6A003921B9 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C3A6AE2A1E4C6A003921B9 /* LocationSearchTable.swift */; };
 		95DE5F852A1AA9720093E7BD /* ApiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DE5F842A1AA9720093E7BD /* ApiViewModel.swift */; };
 		95DE5F882A1AAA0E0093E7BD /* ProspectAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DE5F872A1AAA0E0093E7BD /* ProspectAPIModel.swift */; };
 		95DE5F8E2A1ADC5A0093E7BD /* MAPVIEW2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DE5F8D2A1ADC5A0093E7BD /* MAPVIEW2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		95121EAF2A124D10008414D8 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		95121EB12A124D1B008414D8 /* FavoritenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritenView.swift; sourceTree = "<group>"; };
+		953A766B2A2A1A1900010574 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
 		953FB4FA2A10BF6E005A67A2 /* PriceCheck2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceCheck2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		953FB4FD2A10BF6E005A67A2 /* PriceCheck2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCheck2_0App.swift; sourceTree = "<group>"; };
 		953FB4FF2A10BF6E005A67A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,8 @@
 		953FB52C2A10C265005A67A2 /* ProspectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectViewModel.swift; sourceTree = "<group>"; };
 		953FB52F2A116148005A67A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		953FB56A2A116742005A67A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95C3A6A92A1B99CC003921B9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		95C3A6AE2A1E4C6A003921B9 /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 		95DE5F842A1AA9720093E7BD /* ApiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiViewModel.swift; sourceTree = "<group>"; };
 		95DE5F872A1AAA0E0093E7BD /* ProspectAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectAPIModel.swift; sourceTree = "<group>"; };
 		95DE5F8D2A1ADC5A0093E7BD /* MAPVIEW2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAPVIEW2.swift; sourceTree = "<group>"; };
@@ -147,11 +151,12 @@
 			isa = PBXGroup;
 			children = (
 				953FB4FD2A10BF6E005A67A2 /* PriceCheck2_0App.swift */,
+				95C3A6B22A1E5524003921B9 /* Location */,
 				95DE5F862A1AA9760093E7BD /* Remote */,
 				953FB52E2A10C275005A67A2 /* Model */,
 				953FB5242A10C1DA005A67A2 /* Views */,
 				953FB5252A10C1E4005A67A2 /* ViewModel */,
-				953FB5082A10BF6F005A67A2 /* PriceCheck2_0.xcdatamodeld */,
+				953FB5082A10BF6F005A67A2 /* CoreData.xcdatamodeld */,
 				953FB56A2A116742005A67A2 /* Assets.xcassets */,
 				953FB5032A10BF6F005A67A2 /* Preview Content */,
 			);
@@ -188,7 +193,6 @@
 		953FB5252A10C1E4005A67A2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				95121EAF2A124D10008414D8 /* MapViewModel.swift */,
 				953FB5222A10C1C6005A67A2 /* FireBaseViewModel.swift */,
 				953FB52C2A10C265005A67A2 /* ProspectViewModel.swift */,
 			);
@@ -201,8 +205,18 @@
 				95DE5F872A1AAA0E0093E7BD /* ProspectAPIModel.swift */,
 				953FB5262A10C224005A67A2 /* Prospect.swift */,
 				953FB52A2A10C23E005A67A2 /* ProspectDetail.swift */,
+				953A766B2A2A1A1900010574 /* DataBase.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		95C3A6B22A1E5524003921B9 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				95C3A6AE2A1E4C6A003921B9 /* LocationSearchTable.swift */,
+				95C3A6A92A1B99CC003921B9 /* LocationManager.swift */,
+			);
+			path = Location;
 			sourceTree = "<group>";
 		};
 		95DE5F862A1AA9760093E7BD /* Remote */ = {
@@ -321,20 +335,22 @@
 				953FB52D2A10C265005A67A2 /* ProspectViewModel.swift in Sources */,
 				953FB5152A10C108005A67A2 /* SplashScreen.swift in Sources */,
 				953FB52B2A10C23E005A67A2 /* ProspectDetail.swift in Sources */,
+				95C3A6AF2A1E4C6A003921B9 /* LocationSearchTable.swift in Sources */,
 				953FB5172A10C10E005A67A2 /* HomeView.swift in Sources */,
 				95DE5F8E2A1ADC5A0093E7BD /* MAPVIEW2.swift in Sources */,
 				953FB5272A10C224005A67A2 /* Prospect.swift in Sources */,
 				953FB51B2A10C14A005A67A2 /* ProspectsView.swift in Sources */,
-				95121EB02A124D10008414D8 /* MapViewModel.swift in Sources */,
 				953FB51D2A10C15F005A67A2 /* ProspectView.swift in Sources */,
-				953FB50A2A10BF6F005A67A2 /* PriceCheck2_0.xcdatamodeld in Sources */,
+				953FB50A2A10BF6F005A67A2 /* CoreData.xcdatamodeld in Sources */,
 				953FB5232A10C1C6005A67A2 /* FireBaseViewModel.swift in Sources */,
 				953FB5112A10C099005A67A2 /* LoginView.swift in Sources */,
+				95C3A6AA2A1B99CC003921B9 /* LocationManager.swift in Sources */,
 				953FB5212A10C192005A67A2 /* ProspectCard.swift in Sources */,
 				953FB5002A10BF6E005A67A2 /* ContentView.swift in Sources */,
 				953FB4FE2A10BF6E005A67A2 /* PriceCheck2_0App.swift in Sources */,
 				953FB5132A10C0A6005A67A2 /* SignupView.swift in Sources */,
 				95DE5F882A1AAA0E0093E7BD /* ProspectAPIModel.swift in Sources */,
+				953A766C2A2A1A1900010574 /* DataBase.swift in Sources */,
 				953FB51F2A10C18B005A67A2 /* SettingsView.swift in Sources */,
 				95DE5F852A1AA9720093E7BD /* ApiViewModel.swift in Sources */,
 			);
@@ -460,7 +476,6 @@
 		953FB50E2A10BF6F005A67A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -468,6 +483,7 @@
 				DEVELOPMENT_TEAM = B93Z47996N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "test test";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -489,7 +505,6 @@
 		953FB50F2A10BF6F005A67A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -497,6 +512,7 @@
 				DEVELOPMENT_TEAM = B93Z47996N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "test test";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -688,13 +704,13 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		953FB5082A10BF6F005A67A2 /* PriceCheck2_0.xcdatamodeld */ = {
+		953FB5082A10BF6F005A67A2 /* CoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				953FB5092A10BF6F005A67A2 /* PriceCheck2_0.xcdatamodel */,
 			);
 			currentVersion = 953FB5092A10BF6F005A67A2 /* PriceCheck2_0.xcdatamodel */;
-			path = PriceCheck2_0.xcdatamodeld;
+			path = CoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

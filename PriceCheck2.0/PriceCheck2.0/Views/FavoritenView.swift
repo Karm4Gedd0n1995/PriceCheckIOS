@@ -8,13 +8,31 @@
 import SwiftUI
 
 struct FavoritenView: View {
+    @StateObject var dataModel : DataBase
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List{
+            ForEach(dataModel.favData,id: \.self){ prospect in
+                NavigationLink{
+                    ProspectView() } label: {
+                        Image(prospect.image ?? "").resizable()
+                            .frame(width: 75, height: 100)
+                        Text(prospect.name ?? "").bold().font(.largeTitle)
+                    }
+                    
+                
+            }.onDelete{indexSet in
+                dataModel.deleteData(indexSet: indexSet)}
+                
+        }
+            
+        }
     }
-}
+
+    
+
 
 struct FavoritenView_Previews: PreviewProvider {
     static var previews: some View {
-        FavoritenView()
+        FavoritenView(dataModel: DataBase())
     }
 }
